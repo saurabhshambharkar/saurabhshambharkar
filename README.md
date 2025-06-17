@@ -9,7 +9,7 @@
 
 ## About Me
 
-Skilled **Front‑End Developer** with expertise in **HTML**, **CSS**, **JavaScript**, **React.js**, **Tailwind CSS**, **Chakra UI**, and **Firebase**. Currently refining skills at **Masai School**, passionate about building **dynamic, user‑centric web applications**. Eager to contribute to innovative projects in a **collaborative, growth‑focused environment** while continually improving through hands‑on learning and problem‑solving.
+Skilled **MERN Stack Developer** with expertise in **MongoDB**, **Express.js**, **React.js**, **Node.js**, **HTML**, **CSS**, **JavaScript**, **Tailwind CSS**, **Chakra UI**, and **Firebase**. Currently refining skills at **Masai School**, passionate about building dynamic, user‑centric full-stack web applications. Eager to contribute to innovative projects in a collaborative, growth‑focused environment while continually improving through hands‑on learning and problem‑solving.
 
 ---
 
