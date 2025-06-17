@@ -67,7 +67,8 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 
+             bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600"
               />
             </div>
             <div>
@@ -78,7 +79,8 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 
+             bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600"
               />
             </div>
             <div>
@@ -89,7 +91,8 @@ const Contact = () => {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 
+             bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600"
               />
             </div>
             <div>
@@ -99,7 +102,8 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-32 resize-none"
+                className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 
+             h-32 resize-none bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600"
               ></textarea>
             </div>
             <button

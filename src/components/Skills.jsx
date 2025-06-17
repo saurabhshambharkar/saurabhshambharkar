@@ -1,4 +1,5 @@
 import React from "react";
+
 import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import {
   SiJavascript,
@@ -9,6 +10,12 @@ import {
   SiRedux,
   SiGithub,
   SiFirebase,
+  SiNodedotjs,
+  SiExpress,
+  SiMongoose,
+  SiPostman,
+  SiNpm,
+  SiGit,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -23,6 +30,14 @@ const skills = [
   { name: "Python", icon: <SiPython />, color: "royalblue" },
   { name: "GitHub", icon: <SiGithub />, color: "black" },
   { name: "Firebase", icon: <SiFirebase />, color: "orange" },
+  { name: "Node.js", icon: <SiNodedotjs />, color: "purple" },
+  { name: "Express", icon: <SiExpress />, color: "green" },
+  { name: "Mongoose", icon: <SiMongoose />, color: "maroon" },
+  { name: "Postman", icon: <SiPostman/>, color: "Orange" },
+  { name: "NPM", icon: <SiNpm/>, color: "Maroon" },
+  { name: "Git", icon: <SiGit />, color: "#de4c35" },
+  { name: "GitHub", icon: <SiGithub/>, color: "black" },
+  
 ];
 
 

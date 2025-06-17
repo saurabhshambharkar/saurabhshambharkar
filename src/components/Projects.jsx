@@ -1,11 +1,10 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
-
+import GitHubCalendar from "./GitHubCalander";
 const Projects = () => {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
-
+  
   const projects = [
     {
       id: 1,
@@ -116,14 +115,8 @@ const Projects = () => {
         </h2>
 
         <div className="flex justify-center mb-12">
-          <GitHubCalendar
-            username="saurabhshambharkar"
-            colorScheme="dark"
-            blockSize={15}
-            blockMargin={5}
-            fontSize={16}
-          />
-        </div>
+          <GitHubCalendar username="saurabhshambharkar"/>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="flex justify-center w-full m-6">

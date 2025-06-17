@@ -23,15 +23,13 @@ const About = () => {
 
         <div className="p-4 animate-fadeIn delay-400">
           <p className="text-lg text-gray-600 dark:text-white leading-relaxed text-justify">
-            Hi I'm Saurabh Shambharkar, a Front-End Developer passionate about building responsive and visually engaging websites. 
-            I started my web development journey in 2024, driven by a love for coding and creativity. I enjoy turning ideas into smooth, interactive digital experiences.
+           I’m Saurabh Shambharkar, a MERN Stack Developer passionate about creating responsive and visually engaging web applications. 
+           I started my development journey in 2024, combining creativity with code to build smooth and user-friendly digital experiences. 
+           Skilled in MongoDB, Express.js, React.js, Node.js, HTML, CSS, and JavaScript, I focus on clean design, performance, and scalable architecture. Always eager to learn and collaborate on impactful projects.
           </p>
           <p className="text-lg text-gray-600 dark:text-white leading-relaxed text-justify mt-6">
-            I specialize in HTML, CSS, JavaScript, React.js, Redux, and modern
-            front-end tools, focusing on clean design and user-friendly
-            interfaces. I’m always eager to learn, explore new technologies, and
-            bring ideas to life through code. Let’s collaborate to create
-            something amazing!
+           I specialize in HTML, CSS, JavaScript, React.js, Redux, and have also gained hands-on experience with Node.js, Express, and MongoDB. I focus on building clean, responsive, and user-friendly interfaces, 
+           and I'm always eager to learn, explore new technologies, and turn ideas into meaningful digital experiences.
           </p>
         </div>
       </div>
