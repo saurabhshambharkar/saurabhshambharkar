@@ -23,7 +23,7 @@ const Navbar = () => {
   ];
 
   const handleResumeClick = () => {
-    const fileId = "1jjvrJRAVd0rUtR03qNUxmLRaNHb8lpKM";
+    const fileId = "1FLIsHM3Qb-vFJV5qKzSbW0l5bkleP5fj";
     window.open(`https://drive.google.com/file/d/${fileId}/preview`, "_blank");
   
     const link = document.createElement("a");

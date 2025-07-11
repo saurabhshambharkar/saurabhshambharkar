@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   const handleDownloadResume = () => {
-    const fileId = "1jjvrJRAVd0rUtR03qNUxmLRaNHb8lpKM";
+    const fileId = "1FLIsHM3Qb-vFJV5qKzSbW0l5bkleP5fj";
     window.open(`https://drive.google.com/file/d/${fileId}/preview`, "_blank");
   
     const a = document.createElement("a");
@@ -10,7 +10,8 @@ const Home = () => {
     a.download = "Saurabh-Shambharkar-Resume.pdf";
     a.click();
   };
-  
+  //  updated=>  https://drive.google.com/file/d/1FLIsHM3Qb-vFJV5qKzSbW0l5bkleP5fj/view?usp=sharing
+
   // https://drive.google.com/file/d/1jjvrJRAVd0rUtR03qNUxmLRaNHb8lpKM/view?usp=sharing
   
   return (
