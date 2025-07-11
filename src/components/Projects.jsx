@@ -32,15 +32,15 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Property Listing",
-      image: "/Propertylisting.png",
+      title: "Online Pharmacy Application",
+      image: "/",
       description:
-        "A lightning‑fast React + Vite web app for discovering, filtering, and inquiring about real‑estate listings.",
-      techStack: "HTML | React | Firebase | Javascript | Tailwind CSS | Vanilla CSS | React Icons",
+        "A modern, responsive online pharmacy platform built with React and TypeScript. This application provides a seamless experience for users to browse medicines, manage prescriptions, and track orders.",
+      techStack: "React 18 | TypeScript | Vite | Tailwind CSS | React Router | React Hook Form | Lucide React",
       features:
-        "Responsive Design, Powerful Search & Filters, Grid ↔︎ List Toggle, Image Carousel, Quick Inquiry Form, .",
-      githubLink: "https://github.com/saurabhshambharkar/Property-Listing-Project",
-      liveLink: "https://musical-lollipop-c8f36b.netlify.app/",
+        "Advanced Medicine Search with Filters, Interactive Shopping Cart, Fully Responsive Design, Prescription Upload and Management, Order Tracking System, User Authentication & Profiles, Detailed Product Information, Dynamic Pricing and Discounts.",
+      githubLink: "https://github.com/NikhilT97/B44_PharmaCo",
+      liveLink: "https://incomparable-bunny-8aed28.netlify.app/",
     },
   ];
 
