@@ -4,10 +4,23 @@ const Projects = () => {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
-  
+
   const projects = [
     {
       id: 1,
+      title: "Online Pharmacy Application",
+      image: "/OnlinePharmacy.png",
+      description:
+        "A modern, responsive online pharmacy platform built with React and TypeScript. This application provides a seamless experience for users to browse medicines, manage prescriptions, and track orders.",
+      techStack:
+        "React 18 | TypeScript | Vite | Tailwind CSS | React Router | React Hook Form | Lucide React",
+      features:
+        "Advanced Medicine Search with Filters, Interactive Shopping Cart, Fully Responsive Design, Prescription Upload and Management, Order Tracking System, User Authentication & Profiles, Detailed Product Information, Dynamic Pricing and Discounts.",
+      githubLink: "https://github.com/NikhilT97/B44_PharmaCo",
+      liveLink: "https://incomparable-bunny-8aed28.netlify.app/",
+    },
+    {
+      id: 2,
       title: "VIBESTREEM.COM",
       image: "/Vibestream.png",
       description:
@@ -19,7 +32,7 @@ const Projects = () => {
       liveLink: "https://warm-cheesecake-8bfc28.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Code Crafter",
       image: "/Codecrafter.png",
       description:
@@ -27,20 +40,9 @@ const Projects = () => {
       techStack: "HTML | CSS | Javascript | Firebase",
       features:
         "Multi‑Category Catalog, Smart Cart & Checkout , Responsive & PWA, Instant Search & Filters, Pure Front‑End.",
-      githubLink: "https://github.com/saurabhshambharkar/B42_WEB_001_Code-Crafters?tab=readme-ov-file",
+      githubLink:
+        "https://github.com/saurabhshambharkar/B42_WEB_001_Code-Crafters?tab=readme-ov-file",
       liveLink: "https://sweet-pothos-685387.netlify.app/",
-    },
-    {
-      id: 3,
-      title: "Online Pharmacy Application",
-      image: "/",
-      description:
-        "A modern, responsive online pharmacy platform built with React and TypeScript. This application provides a seamless experience for users to browse medicines, manage prescriptions, and track orders.",
-      techStack: "React 18 | TypeScript | Vite | Tailwind CSS | React Router | React Hook Form | Lucide React",
-      features:
-        "Advanced Medicine Search with Filters, Interactive Shopping Cart, Fully Responsive Design, Prescription Upload and Management, Order Tracking System, User Authentication & Profiles, Detailed Product Information, Dynamic Pricing and Discounts.",
-      githubLink: "https://github.com/NikhilT97/B44_PharmaCo",
-      liveLink: "https://incomparable-bunny-8aed28.netlify.app/",
     },
   ];
 
@@ -115,8 +117,9 @@ const Projects = () => {
         </h2>
 
         <div className="flex justify-center mb-12">
-          <GitHubCalendar username="saurabhshambharkar"/>
-        </div>
+          <GitHubCalendar username="saurabhshambharkar" />
+                  
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="flex justify-center w-full m-6">
