@@ -25,7 +25,7 @@ const Projects = () => {
       image: "/Vibestream.png",
       description:
         "Vibestream is a sleek and user-friendly music streaming platform designed for music lovers who enjoy seamless access to their favorite tracks, artists, and playlists.",
-      techStack: "HTML | CSS | React",
+      techStack: "React 18 | Vite | Tailwind CSS | Zustand | React Router v6 | Firebase v9 (Auth & Firestore) | Howler.js | ESLint | Prettier",
       features: "Authentication with Cloud Sync, Trending Artists & Genre-based Recommendations, Full-featured Music Player Controls, Podcast Streaming Support, PWA Ready for Desktop & Mobile App Experience.",
       githubLink:
         "https://github.com/saurabhshambharkar/B41_WEB_006_UI-UX-Unleashed",
